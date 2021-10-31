@@ -35,7 +35,7 @@ export default function Web3Info(props) {
       <div>Your ETH balance: {balance}</div>
       <div>Provider: {providerName}</div>
       {accounts && accounts.length ? (
-        <div>Accounts & Signing Status: Access Grated</div>
+        <div>Accounts & Signing Status: Access Granted</div>
       ) : !!networkId && providerName !== 'infura' ? (
         <>
           <button onClick={requestAccess}>Request Access</button>

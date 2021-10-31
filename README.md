@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Web3 Info dApp
+
+web3-dapp is a react app that displays the current connected Etherium network and allows you to connect with metamask to retrive address and account balance.
+
+
+
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
